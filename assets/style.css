@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(48, 90, 88);
+    text-transform: capitalize;
+}
+
+div {
+    color: rgb(141, 206, 173);
+    & button {
+        background-color: rgb(227, 230, 30);
+    }
+}
+
+form {
+    border: 9px solid black;
+    color: white;
+    background-color: rgb(52, 42, 48);
+    width: 400px;
+    margin: 150px auto;
+    & input[type="submit"] {
+        background-color:rgb(40, 183, 250);
+        color:white;
+    }
+}
+
+.login {
+    position: absolute;
+    top: 62%;
+    left: 42%;
+    color: white;
+}
+
+.register {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    color: white;
+}

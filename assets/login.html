@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/style.css">
+  <title>log in</title>
+</head>
+ <body>
+   <header>
+     <div class="register">
+       <p>ანგარიშის შექმნა
+        <a href="/registration.html"><button>Create Account</button></a>
+        </p>
+     </div>
+     <form action="action_page.php" method="post">
+       <fieldset>
+          <legend>Log In</legend>
+            <label for="email">Email-Address</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" name="pass" placeholder="Password" required minlength="8"><br><br>
+            <input type="submit" value="შესვლა">
+       </fieldset>
+     </form>
+   </header>
+ </body>
+</html>
